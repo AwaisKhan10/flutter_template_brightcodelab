@@ -8,7 +8,7 @@ class CustomLogPrinter extends LogPrinter {
 
   @override
   List<String> log(LogEvent event) {
-    var emoji = PrettyPrinter.levelEmojis[event.level];
+    var emoji = PrettyPrinter.defaultLevelEmojis[event.level];
     return ['$emoji $className - ${event.message}'];
   }
 }

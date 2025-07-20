@@ -1,18 +1,27 @@
 {
-    "cSpell.words": [
-        "antonx",
-        "chage",
-        "cupertino",
-        "geolocator",
-        "heic",
-        "nullsafety",
-        "pasword",
-        "Placemark",
-        "precache",
-        "Roboto",
-        "Schyler",
-        "screenutil",
-        "signup",
-        "subosito"
-    ]
+  "cSpell.words": [
+    "antonx",
+    "chage",
+    "cupertino",
+    "geolocator",
+    "heic",
+    "nullsafety",
+    "pasword",
+    "Placemark",
+    "precache",
+    "Roboto",
+    "Schyler",
+    "screenutil",
+    "signup",
+    "subosito"
+  ],
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
